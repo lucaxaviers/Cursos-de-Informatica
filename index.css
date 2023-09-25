@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2cd;
+}
+
+header {
+    background-color: #fabc5e;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+}
+
+.usario-foto {
+    position: absolute;
+    top: 20px; 
+    right: 10px;
+    max-width: 36px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.curso-list {
+    list-style: none;
+    padding: 0;
+}
+
+.curso-item {
+    border: 2px solid #c5c5c5;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff6df;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.curso-item img {
+    max-width: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+
+}
+
+.curso-content {
+    flex-grow: 1;
+}
+
+button {
+    background-color: #bd9a00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 16px; 
+    }
+
+    
+}
+@media (min-width: 768px) {
+   
+    body {
+        font-size: 18px; 
+    }
+
+    
+}
